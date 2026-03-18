@@ -297,11 +297,13 @@ body{
     font-size: 2px;
 }
 
-vid{
+.vid{
     opacite: 1;
     visibility: visible;
+    pointer-events: all;
 }
-no_vid{
+.no_vid{
     opacite: 0;
-    visibility: visible;
+    visibility: hidden;
+    pointer-events: none;
 }

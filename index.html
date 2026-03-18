@@ -12,7 +12,7 @@
             <img src="Логотип.svg" class="fot">
             <br>
             <span class="mein_span">Menu</span>
-            <button id="log" class="log">login</button>
+            <button id="log" class="log" data-state="off">login</button>
             <button id="car" class="car car_text">cart</button>
             <button id="cou" class="cou">courses</button>
             <button id="ser" class="ser">services</button>
@@ -21,13 +21,13 @@
             <button id="sup" class="sup">support</button>
         </div>
     </div>
-    <div class="zug vis">
+    <div id="naim" class="zug vis">
         <span class="e3">MR</span>
         <span class="e1">LICH_Murcet</span>
     </div>
 
 
-    <div class="no_vid table1">
+    <div id="log_body" class="no_vid table1">
         <span class="log_tex">Login</span>
         <form>
             <input type="text" class="nic" name="nic" id="nic" placeholder="Enter your name" required>
