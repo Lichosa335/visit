@@ -10,8 +10,9 @@
 body{
     background: linear-gradient(145deg, #1AE000 0%, #007022 40%, #000000 100%);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+
 }
 .zug{
     grid-column: span 5;
@@ -193,9 +194,81 @@ body{
     transform: scale(0.9);
 }
 
+.table1{
+    background: #14AB00;
+    width: 100%;
+    height:100%;
+    grid-row: 1/3;
+    grid-column: 4/6;
+    border-radius: 35px;
+    padding: 40px 25%;
+    margin: 40px;
 
+}
+.log_tex{
+    position: relative;
+    left: -5%;
+    font-size: 40px;
+    letter-spacing: 30px;
+    color: #ffffff;
+}
+.nic{
+    margin: 20px 0px 0px;
+    border-radius: 15px;
+    position: relative;
+    right: 40%;
+    height: 50px;
+    border: none;
+    width: 180%;
+}
+.pas{
+    margin: 20px 0px 0px;
+    border-radius: 15px;
+    position: relative;
+    right: 40%;
+    height: 50px;
+    border: none;
+    width: 180%;
+}
+.pas_text{
+    background: none;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    color: #000000;
+    margin: 5px;
+    position: relative;
+    right: 43%;
+}
+.log_but{
+    margin: 40px 0px 0px;
+    border-radius: 15px;
+    position: relative;
+    background: #000000;
+    color: #ffffff;
+    right: 40%;
+    height: 50px;
+    border: none;
+    width: 180%;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.don_ac{
+    position: relative;
+    top: 2%;
+    left: 10%;
+}
+.sig{
+    border-width: 0px 0px 5px 0px;
+    border-radius: 35px;
+    width: 120%;
+    font-size: 20px;
+    position: relative;
+    top: 3%;
+    right: 10%;
 
-
+}
 .e1{
     font-size: 60px;
 }
@@ -213,4 +286,13 @@ body{
 }
 .e6{
     font-size: 2px;
+}
+
+vid{
+    opacite: 1;
+    visibility: visible;
+}
+no_vid{
+    opacite: 0;
+    visibility: visible;
 }
