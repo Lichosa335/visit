@@ -4,6 +4,7 @@ document.getElementById('log').addEventListener('click', function() {
     const log_body = document.getElementById('log_body');
     const state = this.dataset.state;
     const sig_body = document.getElementById('sig_body')
+
     if (state === 'off'){
         this.dataset.state = 'on'
         naim.classList.add('no_vid');
