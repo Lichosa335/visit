@@ -266,6 +266,13 @@ body{
     font-size: 20px;
     margin: 20px;
 }
+.don_ac1{
+    position: relative;
+    top: 2%;
+    right: -10%;
+    font-size: 18px;
+    margin: 20px 0px 0px;
+}
 .sig{
     border-width: 0px 0px 5px 0px;
     border-radius: 35px;
