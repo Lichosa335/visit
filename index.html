@@ -10,7 +10,7 @@
     <div class="mein" id="mein">
         <div class="body-mein">
             <img src="Логотип.svg" id="fot" class="fot">
-            <span type="button" class="mein_span" id="span">Menu</span>
+            <span type="text" class="mein_span" id="span">Menu</span>
                     <button id="log" class="log" data-state="off">login</button>
                     <button id="cou" class="cou">courses</button>
                     <button id="ser" class="ser">services</button>
@@ -49,12 +49,17 @@
 
     <div class="cours_body no_dis" id="cours_body">
 
-        <span>Python</span>
+        <span class="py_first">Python</span>
         <img src="py_log.svg" class="py_log">
-        <span>1) Creating a database</span>
-        <span>2) Error correction</span>
-        <span>3) Discussion of up to 4 edits is free of charge</span>
-
+        <div class="py_span">
+            <span>1) Creating a database</span>
+            <span>2) Error correction</span>
+            <span>3) Discussion of up to 4 edits is free of charge</span>
+        </div>
+        <div>
+            <button class="py_more" id="py_more">More</button>
+            <button class="py_buy" id="py_buy">Buy</button>
+        </div>
     </div>
 <script src="mein.js"></script>
 </body>

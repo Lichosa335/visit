@@ -74,4 +74,7 @@ document.getElementById('cou').addEventListener('click', function(){
     fot.classList.add('fot1');
     span.classList.remove('mein_span');
     span.classList.add('mein_span1');
+    span.setAttribute('type', 'button');
+
 });
+
