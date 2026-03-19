@@ -292,18 +292,66 @@ body{
 }
 
 .mein1{
-    grid-column: span 1;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 1/5;
     padding: 0px;
-    margin:0px 0px 0px;
+    margin: 20px 20px 20px;
     background: none;
 
+
+
+}
+.body-mein{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30%;
 }
 
 .cours_body{
     background: #ffffff;
     border-radius: 35px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    margin: 20px;
 }
+
+.zug1{
+    grid-column: 3/8;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 10px;
+    color: #ffffff;
+    grid-row:1;
+}
+
+.fot1{
+    grid-row: 1;
+    grid-column: 2;
+    padding: 30px;
+    margin:0px 40px 0px;
+}
+.mein_span1{
+    position: relative;
+    top: 55%;
+    margin: 10px 40px 0px;
+    grid-row: 1;
+    padding: 30px;
+    grid-column: 2;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    color: #000000;
+    z-index: 111;
+}
+
+
+
+
+
+
+
+
 
 .e1{
     font-size: 60px;
@@ -333,4 +381,7 @@ body{
     opacite: 0;
     visibility: hidden;
     pointer-events: none;
+}
+.no_dis{
+    display: none;
 }

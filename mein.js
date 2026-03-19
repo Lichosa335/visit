@@ -53,16 +53,25 @@ document.getElementById('cou').addEventListener('click', function(){
     const cours_body = document.getElementById('cours_body');
     const mein = document.getElementById('mein');
     const buttonIds = ['log', 'cou', 'ser', 'car', 'rev', 'con', 'sup'];
+    const naim = document.getElementById('naim');
+    const fot = document.getElementById('fot');
+    const span = document.getElementById('span');
+
 
     buttonIds.forEach(id => {
         const btn = document.getElementById(id);
         if (btn) {
-            btn.classList.add('no_vid');
+            btn.classList.add('no_dis');
             btn.classList.remove('vid');
         }
     });
     mein.classList.remove('mein');
     mein.classList.add('mein1');
-    cours_body.classList.remove('no_vid');
-    cours_body.classList.add('vid');
+    cours_body.classList.remove('no_dis');
+    naim.classList.remove('zug');
+    naim.classList.add('zug1');
+    fot.classList.remove('fot');
+    fot.classList.add('fot1');
+    span.classList.remove('mein_span');
+    span.classList.add('mein_span1');
 });
