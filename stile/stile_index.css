@@ -11,7 +11,7 @@ body{
     background: linear-gradient(145deg, #1AE000 0%, #007022 40%, #000000 100%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr ;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
 
 }
 .zug{
