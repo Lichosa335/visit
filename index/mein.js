@@ -135,7 +135,5 @@ document.getElementById('py_more').addEventListener('click', function(){
     cours_body.classList.add('no_dis');
     py_body.classList.remove('no_dis');
 
-/*    if prow {
-
-    }*/
+    /*if prow {}*/
 });

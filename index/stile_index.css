@@ -6,12 +6,46 @@
     -ms-user-select: none;
     user-select: none;
 }
+body {
+    background: #000000 !important;
+    position: relative;
 
+}
+
+/* Внешний слой - сильно размытый  */
+body::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(145deg);
+    width: 85%;
+    height: 85%;
+    background: radial-gradient(circle at center, #00FF16 0%, #008409 30%, transparent 80%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    filter: blur(25px);
+    z-index: -2;
+}
+
+/* Внутренний слой - менее размытый */
+body::after {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(145deg);
+    width: 70%;
+    height: 70%;
+    background: radial-gradient(circle at center, #00FF16 0%, #008409 40%, #000000 100%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    filter: blur(8px);
+    z-index: -1;
+}
 body{
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1fr 1fr 1fr;
 
 }
 .zug{
@@ -29,8 +63,10 @@ body{
     padding: 20px;
     margin:20px 20px 20px;
     border-radius: 15px;
-    background: #37e13f80;
-
+    background: #000000;
+    border-color: #00FF37;
+    border-width: 7px;
+    border-style: solid;
 }
 .body-mein{
     display: grid;
@@ -192,7 +228,10 @@ body{
     border-radius: 35px;
     padding: 40px 25%;
     margin: 40px;
-
+    background: #00C40A;
+    border-color: #000000;
+    border-width: 7px;
+    border-style: solid;
 }
 .log_tex{
 
@@ -500,39 +539,4 @@ body{
 }
 .no_dis{
     display: none;
-}
-body {
-    background: #000000 !important;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Внешний слой - сильно размытый  */
-body::before {
-    content: '';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(145deg);
-    width: 85%;
-    height: 85%;
-    background: radial-gradient(circle at center, #00FF16 0%, #008409 30%, transparent 80%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    filter: blur(25px);
-    z-index: -2;
-}
-
-/* Внутренний слой - менее размытый */
-body::after {
-    content: '';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(145deg);
-    width: 70%;
-    height: 70%;
-    background: radial-gradient(circle at center, #00FF16 0%, #008409 40%, #000000 100%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    filter: blur(8px);
-    z-index: -1;
 }
