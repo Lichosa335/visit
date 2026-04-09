@@ -125,3 +125,17 @@ document.getElementById('span').addEventListener('click', function(){
     span.classList.remove('mein_span1');
     span.setAttribute('type', 'text');
 });
+
+/*Переключение Поля информации питон и курсов*/
+
+document.getElementById('py_more').addEventListener('click', function(){
+    const cours_body = document.getElementById('cours_body');
+    const py_body = document.getElementById('py_more');
+    const prow = window.getComputedStyle(py_body).display !== 'none';
+    cours_body.classList.add('no_dis');
+    py_body.classList.remove('no_dis');
+
+/*    if prow {
+
+    }*/
+});
