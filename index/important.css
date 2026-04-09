@@ -37,7 +37,8 @@ body::after {
 }
 body{
     background: #000000 !important;
-    position: relative;
+
+    width: 100vw;
 }
 .e1{
     font-size: 60px;
@@ -97,3 +98,37 @@ body{
 #rev { grid-column: 1/4; grid-row: 6; }  /* reviews по центру */
 #con { grid-column: 1/4; grid-row: 7; }  /* contacts справа */
 #sup { grid-column: 1/4; grid-row: 8; }  /* support по центру внизу */
+
+.polos{
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 150px;
+}
+.mein_span1{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+
+    font-size: 40px;
+    letter-spacing: 5px;
+    z-index: 111;
+    color: #ffffff;
+    background: #AF0008;
+    height: 40%;
+    width: 15%;
+    padding: 0px 20px 0px;
+    border-radius: 15px;
+}
+.t{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+.f{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
