@@ -111,7 +111,7 @@ body{
     position: absolute;
     top: 20%;
     left: 3%;
-
+    border: none;
     font-size: 40px;
     letter-spacing: 5px;
     z-index: 111;
@@ -121,6 +121,11 @@ body{
     width: 15%;
     padding: 0px 20px 0px;
     border-radius: 15px;
+    transition: 0.6s;
+}
+.mein_span1:hover {
+    box-shadow: 0px 0px;
+    transform: scale(1.2);
 }
 .t{
     position: absolute;

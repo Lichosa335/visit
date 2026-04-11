@@ -398,6 +398,7 @@
     letter-spacing: 5px;
     color: #ffffff;
     border: none;
+    transition: 0.6s;
 }
 .bt_tex{
     margin: 30px 0px 0px 0px;
@@ -412,10 +413,21 @@
     border-width: 3px;
     border-style: solid;
     border-color: #00FF09;
+    transition: 0.6s;
 }
 .form{
     color: #ffffff;
     font-size: 34px;
     grid-row: 4;
     grid-column: 6/9;
+
+}
+
+.bt_tex:hover {
+    box-shadow: 0px 0px;
+    transform: scale(0.9);
+}
+.bt_truf:hover {
+    box-shadow: 0px 0px;
+    transform: scale(0.9);
 }
