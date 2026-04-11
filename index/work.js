@@ -54,5 +54,35 @@ document.getElementById('sig_ent').addEventListener('click', function() {
         log_body.classList.remove('vid');
         log_body.classList.add('no_vid');
         sig_body.classList.remove('no_vid');
-        sig_body.classList.add('vid');
+
+});
+
+/*Кнопка esc*/
+
+document.getElementById('esc').addEventListener('click', function() {
+    const grid1 = document.getElementById('grid1');
+    const grid2 = document.getElementById('grid2');
+    const grid3 = document.getElementById('grid3');
+    const polos = document.getElementById('polos');
+
+    // Проверяем, какая страница сейчас открыта
+    const isGrid2Visible = !grid2.classList.contains('no_dis');
+    const isGrid3Visible = !grid3.classList.contains('no_dis');
+
+    if (isGrid3Visible) {
+        // Если открыта страница Python - возвращаемся на курсы
+        grid2.classList.remove('no_dis');
+        grid3.classList.add('no_dis');
+        polos.classList.remove('no_dis');
+
+    } else if (isGrid2Visible) {
+        // Если открыта страница курсов - возвращаемся на главную
+        grid1.classList.remove('no_dis');
+        grid2.classList.add('no_dis');
+        polos.classList.add('no_dis');
+
+    } else {
+        // Если на главной - ничего не делаем или скроллим наверх
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 });
