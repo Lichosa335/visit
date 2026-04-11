@@ -2,13 +2,13 @@
 .grid1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.7fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 
 }
 /*Таблица выбора*/
 .mein{
     grid-column: span 3;
-    grid-row: 1/5;
+    grid-row: 1/2;
     padding: 20px;
     margin:20px 20px 20px;
     border-radius: 15px;
@@ -17,12 +17,7 @@
     border-width: 7px;
     border-style: solid;
 }
-.body-mein{
-    display: grid;
-    min-height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+
 .zug{
     grid-column: 5/8;
     text-align: center;
@@ -59,12 +54,12 @@
 .table1{
     background: #14AB00;
     width: 100%;
-    height:100%;
-    grid-row: 1/3;
+    height: 70%;
+    grid-row: 1;
     grid-column: 5/8;
     border-radius: 35px;
     padding: 40px 25%;
-    margin: 40px;
+    margin: 10px 0px 0px 40px;
     background: #00C40A;
     border-color: #000000;
     border-width: 7px;
