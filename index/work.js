@@ -63,6 +63,7 @@ document.getElementById('esc').addEventListener('click', function() {
     const grid1 = document.getElementById('grid1');
     const grid2 = document.getElementById('grid2');
     const grid3 = document.getElementById('grid3');
+    const grid4 = document.getElementById('grid4');
     const polos = document.getElementById('polos');
 
     // Проверяем, какая страница сейчас открыта

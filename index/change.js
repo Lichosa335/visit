@@ -25,3 +25,19 @@ document.getElementById('py_buy').addEventListener('click', function(){
     grid2.classList.add('no_dis');
 
 });
+document.getElementById('html_more').addEventListener('click', function(){
+    const grid3 = document.getElementById('grid4');
+    const grid2= document.getElementById('grid2');
+
+    grid3.classList.remove('no_dis');
+    grid2.classList.add('no_dis');
+
+});
+document.getElementById('html_buy').addEventListener('click', function(){
+    const grid3 = document.getElementById('grid4');
+    const grid2= document.getElementById('grid2');
+
+    grid3.classList.remove('no_dis');
+    grid2.classList.add('no_dis');
+
+});

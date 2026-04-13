@@ -207,7 +207,7 @@
     font-weight: 600;
 }
 .py_button{
-    background: #67AC4A;
+    background: #11E200;
     grid-row: 5;
     grid-column: 1/3;
     border-radius: 15px;
@@ -269,7 +269,7 @@
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.7fr 1fr 0.3fr 0.2fr;
+    grid-template-rows: 0.7fr 1fr 0.3fr 0.2fr 0.3fr 1fr 1fr 0.3fr;
 
 }
 .body-mein{
@@ -331,7 +331,7 @@
 }
 .icon{
     grid-row: 2;
-    grid-column: 6/8;
+    grid-column: 6/9;
     width: 350px;
     height: 350px;
     margin: 20px 0px 0px 0px;
@@ -418,11 +418,89 @@
 
 }
 
-.bt_tex:hover {
-    box-shadow: 0px 0px;
-    transform: scale(0.9);
+
+.pric{
+    grid-row: 5;
+    grid-column: 4/6;
+    font-size: 50px;
+    color: #000000;
+    margin: 40px;
+    text-shadow: 5px 3px rgba(0, 196, 10, 1.5);
+
 }
-.bt_truf:hover {
-    box-shadow: 0px 0px;
-    transform: scale(0.9);
+.content{
+    background-color: #000000;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00FF09;
+    grid-row: 6;
+    grid-column: 1/5;
+    margin: 0px 30px 0px 100px;
+    padding: 10px;
+}
+.content2{
+    background-color: #000000;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00FF09;
+    grid-row: 6;
+    grid-column: 5/9;
+    margin: 0px 100px 0px 30px;
+    padding: 10px;
+}
+.content3{
+    background-color: #000000;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00FF09;
+    grid-row: 7;
+    grid-column: 1/5;
+    margin: 40px 30px 0px 100px;
+    padding: 10px;
+}
+.content4{
+    background-color: #000000;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00FF09;
+    grid-row: 7;
+    grid-column: 5/9;
+    margin: 40px 100px 0px 30px;
+    padding: 10px;
+}
+.st{
+    margin: 20px 0px 0px 0px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+.zen{
+    font-size: 40px;
+    color: #00FF09;
+    text-align: center;
+}
+.spis{
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.btn_by{
+    background: #11E200;
+    border: none;
+    width: 100%;
+
+    padding: 12px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_by:hover{
+    transform: scale(0.98);
+    box-shadow: 0 0 15px #11E200;
 }

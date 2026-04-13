@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b33bcfe-492d-4ef3-bdb8-92d7d510c640" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stile/stile_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/stile/stile_index.css" afterDir="false" />
-    </list>
+    <list default="true" id="3b33bcfe-492d-4ef3-bdb8-92d7d510c640" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +50,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Максим\Downloads\visit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Максим\Downloads\visit" />
+      <recent name="C:\Users\Максим\Downloads\visit\index" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -81,5 +82,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -138,3 +138,11 @@ body{
     top: 5%;
 }
 
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* По горизонтали */
+    align-items: center;
+}
