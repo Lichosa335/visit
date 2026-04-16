@@ -93,11 +93,11 @@ body{
 }
 #log { grid-column: 1/4; grid-row: 2; }  /* login по центру */
 #cou { grid-column: 1/4; grid-row: 3; }  /* courses слева */
-#ser { grid-column: 1/4; grid-row: 4; }  /* services справа */
-#car { grid-column: 1/4; grid-row: 5; }  /* cart слева */
-#rev { grid-column: 1/4; grid-row: 6; }  /* reviews по центру */
-#con { grid-column: 1/4; grid-row: 7; }  /* contacts справа */
-#sup { grid-column: 1/4; grid-row: 8; }  /* support по центру внизу */
+/*#ser { grid-column: 1/4; grid-row: 4; }  *//* services справа */
+/*#car { grid-column: 1/4; grid-row: 4; }  *//* cart слева */
+#rev { grid-column: 1/4; grid-row: 4; }  /* reviews по центру */
+#con { grid-column: 1/4; grid-row: 5; }  /* contacts справа */
+#sup { grid-column: 1/4; grid-row: 6; }  /* support по центру внизу */
 
 .polos{
     background-color: #000000;
