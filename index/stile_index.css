@@ -602,3 +602,86 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+.grid7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 0.2fr 0.2fr 0.7fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+.otz{
+    color: #00FF16;
+    grid-row: 2;
+    font-size: 50px;
+    grid-column: 2;
+    text-align: center;
+}
+.otz2{
+    margin: 0px 0px 0px 0px;
+    grid-row: 3;
+    font-size: 25px;
+    grid-column: 2;
+    text-align: center;
+}
+.star_pol{
+    grid-row: 4;
+    grid-column: 2;
+    display: flex;
+
+}
+.star{
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00FF16;
+    border-radius: 20px;
+    padding: 25px 40px;
+    margin: 10px;
+    text-align: center;
+    min-width: 180px;
+    transition: 0.3s;
+}
+.u{
+    font-size: 48px;
+    font-weight: bold;
+    color: #00FF16;
+}
+.u2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.star2{
+    background: #111;
+    border-radius: 20px;
+    padding: 20px;
+    border-left: 5px solid #00FF16;
+    transition: 0.3s;
+    animation: fadeIn 0.4s ease;
+    margin: 50px;
+}
+.g1{
+    grid-row: 5;
+    grid-column: 1/4;
+}
+.g2{
+    grid-row: 6;
+    grid-column: 1/4;
+}
+.g3{
+    grid-row: 7;
+    grid-column: 1/4;
+}
+.g4{
+    grid-row: 8;
+    grid-column: 1/4;
+}
+.y{
+    font-size: 38px;
+    font-weight: bold;
+    color: #00FF16;
+}
+.y2{
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+}
