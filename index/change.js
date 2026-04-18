@@ -68,3 +68,13 @@ document.getElementById('js_buy').addEventListener('click', function(){
     grid6.classList.remove('no_dis');
     grid2.classList.add('no_dis');
 });
+
+document.getElementById('rev').addEventListener('click', function(){
+    const grid1 = document.getElementById('grid1');
+    const grid2 = document.getElementById('grid7')
+    const polos = document.getElementById('polos')
+
+    grid1.classList.add('no_dis');
+    grid2.classList.remove('no_dis');
+    polos.classList.remove('no_dis');
+});

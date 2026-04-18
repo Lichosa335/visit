@@ -96,8 +96,8 @@ body{
 /*#ser { grid-column: 1/4; grid-row: 4; }  *//* services справа */
 /*#car { grid-column: 1/4; grid-row: 4; }  *//* cart слева */
 #rev { grid-column: 1/4; grid-row: 4; }  /* reviews по центру */
-#con { grid-column: 1/4; grid-row: 5; }  /* contacts справа */
-#sup { grid-column: 1/4; grid-row: 6; }  /* support по центру внизу */
+#con { grid-column: 1/4; grid-row: 6; }  /* contacts справа */
+#sup { grid-column: 1/4; grid-row: 5; }  /* support по центру внизу */
 
 .polos{
     background-color: #000000;

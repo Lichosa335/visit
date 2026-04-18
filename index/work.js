@@ -67,6 +67,7 @@ document.getElementById('esc').addEventListener('click', function() {
     const grid4 = document.getElementById('grid4'); // Python страница
     const grid5 = document.getElementById('grid5'); // CSS страница
     const grid6 = document.getElementById('grid6'); // JS страница
+    const grid7 = document.getElementById('grid7'); // траница
     const polos = document.getElementById('polos');
 
     // Проверяем, какая страница сейчас открыта
@@ -75,6 +76,7 @@ document.getElementById('esc').addEventListener('click', function() {
     const isGrid4Visible = !grid4.classList.contains('no_dis');
     const isGrid5Visible = !grid5.classList.contains('no_dis');
     const isGrid6Visible = !grid6.classList.contains('no_dis');
+    const isGrid7Visible = !grid7.classList.contains('no_dis');
 
     if (isGrid4Visible) {
         // Страница Python -> возврат на курсы
@@ -101,7 +103,12 @@ document.getElementById('esc').addEventListener('click', function() {
         grid1.classList.remove('no_dis');
         grid2.classList.add('no_dis');
         polos.classList.add('no_dis');
-    } else {
+    }else if (isGrid7Visible) {
+        // Страница курсов -> возврат на главную
+        grid1.classList.remove('no_dis');
+        grid7.classList.add('no_dis');
+        polos.classList.add('no_dis');
+     }else {
         // На главной -> скролл наверх
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
